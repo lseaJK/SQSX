@@ -1,0 +1,107 @@
+{
+	"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "首页"
+			}
+		}
+	    ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                // "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/study/study",
+            "style" :                                                                                    
+            {
+                // "navigationBarTitleText": "学习课件",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/myBranch/myBranch",
+            "style" :                                                                                    
+            {
+                // "navigationBarTitleText": "我的支部",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/member/member",
+            "style" :                                                                                    
+            {
+                // "navigationBarTitleText": "我是党员",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/naviHead/naviHead",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	},
+	"tabBar":{
+		"color":"#dbdbdb",
+		"selectedColor":"#d81e06",
+		"backgroundColor":"",
+		"position":"bottom",
+		"borderStyle":"black",
+		"list":[
+			{
+				"selectedIconPath": "static/img64icon/red64_dangjianhuodong.png",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/img64icon/dangjianhuodong.png",
+				"text":"首页"
+			},
+			{
+				"selectedIconPath": "static/img64icon/red64_xuexizhongxin.png",
+				"pagePath":"pages/study/study",
+				"iconPath":"static/img64icon/xuexizhongxin.png",
+				"text":"学习课件"
+			},
+			{
+				"selectedIconPath": "static/img64icon/64xueshengdangzhibudahui.png",
+				"pagePath":"pages/myBranch/myBranch",
+				"iconPath":"static/img64icon/red64_zongzhiweiyuanhuidangyuandahui.png",
+				"text":"我的支部"
+			},
+			{
+				"selectedIconPath": "static/img64icon/red64_dangyuan.png",
+				"pagePath":"pages/member/member",
+				"iconPath":"static/img64icon/dangyuan.png",
+				"text":"我是党员"
+			}
+		]
+	}
+}
