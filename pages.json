@@ -46,7 +46,16 @@
             
         }
         ,{
-            "path" : "pages/naviHead/naviHead",
+            "path" : "pages/naviHead（index-head的页面版）/naviHead",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/index-head",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",

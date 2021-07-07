@@ -50,72 +50,72 @@
 
 <style lang="scss">
 	.titlebar {
-		height: 128px;
+		height: 128rpx;
 	}
 
 	.head {
-		width: 326px;
-		height: 254px;
+		width: 326rpx;
+		height: 254rpx;
 		margin: 0 auto;
 		text-align: center;
 		box-sizing: content-box;
 
 		.head_logo {
-			width: 140rpx;
+			width: 70rpx;
 			margin: 0 auto;
 		}
 
 		.head_title {
-			font-size: 26px;
+			font-size: 35rpx;
 			font-weight: bold;
-			letter-spacing: 2rpx;
+			letter-spacing: 1rpx;
 			color: #000;
 
 		}
 	}
 
 	.login_wrapper {
-		padding-top: 120rpx;
+		padding-top: 60rpx;
 
 		.login_content {
-			width: 686px;
+			width: 686rpx;
 			margin: 0 auto;
 		}
 
 		.login_item {
-			padding: 10px;
-			font-size: 16px;
-			letter-spacing: 2rpx;
-			height: 58px;
-			border-bottom: 1px solid rgba($color: #000000, $alpha: 0.2);
-			margin-bottom: 28px;
+			padding: 10rpx;
+			font-size: 16rpx;
+			letter-spacing: 1rpx;
+			height: 58rpx;
+			border-bottom: 1rpx solid rgba($color: #000000, $alpha: 0.2);
+			margin-bottom: 28rpx;
 		}
 		
 		.login_btn{
-			margin: 53px auto ;
-			width: 686px;
-			height: 96px;
-			line-height: 96px;
+			margin: 53rpx auto ;
+			width: 686rpx;
+			height: 96rpx;
+			line-height: 96rpx;
 			text-align: center;
-			letter-spacing: 10px;
+			letter-spacing: 10rpx;
 			background-color: rgb(226,62,40);
 			color: #FFFFFF;
-			border-radius: 10px;
+			border-radius: 10rpx;
 		}
 	}
 	.login_opt{
-		height: 40px;
-		width: 370px;
+		height: 40rpx;
+		width: 370rpx;
 		margin: 0 auto;
 		text-align: center;
 		color: #8F8F94;
-		letter-spacing: 1px;
+		letter-spacing: 1rpx;
 	}
 	.login_visitor{
 		position: absolute;
-		bottom: 80px;
-		left:290px;
+		bottom: 80rpx;
+		left:290rpx;
 		color: #8F8F94;
-		letter-spacing: 1px;
+		letter-spacing: 1rpx;
 	}
 </style>

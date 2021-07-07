@@ -1,17 +1,21 @@
 <template>
-	<!-- <navigate-head><view>111</view></navigate-head> -->
-	<view>首页
-	</view>
+	<index-head :name="name" :src="src" :list="list"></index-head>
 	
 	
 	
 </template>
 
 <script>
-	// import navigateHead from "@/components/navigate-head";
+	import indexHead from "@/components/index-head";
 	export default {
+		components:{
+			indexHead
+		},
 		data() {
 			return {
+				name:"首页",
+				src:"../../static/banner.png",
+				list:["XXXX欢迎您","没有前端不好吗"]
 				
 			}
 		},

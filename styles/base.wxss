@@ -12,8 +12,8 @@ page{
 	box-sizing: border-box;
 }
 page{
-	width: 750px;
-	height: 1334px;
+	width: 750rpx;
+	height: 1334rpx;
 	font-size: 28rpx;
 	color:#666;
 }
