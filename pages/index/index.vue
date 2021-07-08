@@ -1,7 +1,7 @@
 <template>
+	<view>
 	<index-head :name="name" :src="src" :list="list"></index-head>
-	
-	
+	</view>
 	
 </template>
 

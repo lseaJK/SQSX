@@ -7,8 +7,9 @@
 		<view class="tools">
 			<u-icon class="toolItems" name="camera" color="#fff" size="48"></u-icon>
 
-			<u-search v-model="value" @search="search" :shape="shape" :clearabled="clearabled"
-			:show-action="false" :input-align="inputAlign" @clear="clear" placeholder="关键词搜索" placeholder-color="rgb(249,224,222)" bg-color="rgb(231,123,109)" color="#fff"></u-search>
+			<u-search v-model="value" @search="search" :shape="shape" :clearabled="clearabled" :show-action="false"
+				:input-align="inputAlign" @clear="clear" placeholder="关键词搜索" placeholder-color="rgb(249,224,222)"
+				bg-color="rgb(231,123,109)" color="#fff"></u-search>
 
 			<u-icon class="toolItems" name="scan" color="#fff" size="48"></u-icon>
 
@@ -17,24 +18,23 @@
 		<view class="hint">
 			<view class="u-demo-area">
 				<u-toast :type="type" ref="uToast"></u-toast>
-				<u-notice-bar :autoplay="autoplay" :playState="playState" :speed="speed":list="list"
-				:volumeIcon="volumeIcon" :duration="duration" :isCircular="isCircular"></u-notice-bar>
+				<u-notice-bar :autoplay="autoplay" :playState="playState" :speed="speed" :list="list"
+					:volumeIcon="volumeIcon" :duration="duration" :isCircular="isCircular"></u-notice-bar>
 			</view>
 		</view>
-		
-		<view class="banner"> 
-		<image mode="widthFix" :src="src"></image>
+
+		<view class="banner">
+			<image mode="widthFix" :src="src"></image>
 		</view>
 	</view>
-	
 </template>
 
 <script>
 	export default {
-		name:"index-head",
-		props:{
-			name:String,
-			src:String,
+		name: "index-head",
+		props: {
+			name: String,
+			src: String,
 			list: Object
 		},
 		data() {
@@ -127,7 +127,7 @@
 			padding-right: 32rpx;
 			text-align: bottom;
 			z-index: 999;
-			
+
 		}
 
 		.banner {

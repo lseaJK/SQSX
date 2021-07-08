@@ -37,17 +37,17 @@
 
 <style lang="scss" scoped>
 	.actheadBG {
-		height: 268rpx;
+		height: 208rpx;
 		width: 750rpx;
 		border-bottom-left-radius: 80rpx;
 		border-bottom-right-radius: 80rpx;
 		background-color: rgb(226, 62, 40);
-		padding-top: 55rpx;
+		padding-top: 30rpx;
 		color: #fff;
 
 		.title {
-			height: 80rpx;
-			font-size: 40rpx;
+			height: 60rpx;
+			font-size: 32rpx;
 			letter-spacing: 10rpx;
 			text-align: center;
 			margin-bottom: 20rpx;
