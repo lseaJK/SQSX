@@ -11,77 +11,86 @@
 		}
 	    ,{
             "path" : "pages/login/login",
-            "style" :                                                                                    
+            "style" :
             {
                 // "navigationBarTitleText": "登录",
                 "enablePullDownRefresh": false
             }
-            
+
         }
         ,{
             "path" : "pages/study/study",
-            "style" :                                                                                    
+            "style" :
             {
                 // "navigationBarTitleText": "学习课件",
                 "enablePullDownRefresh": false
             }
-            
+
         }
         ,{
             "path" : "pages/myBranch/myBranch",
-            "style" :                                                                                    
+            "style" :
             {
                 // "navigationBarTitleText": "我的支部",
                 "enablePullDownRefresh": false
             }
-            
+
         }
         ,{
             "path" : "pages/member/member",
-            "style" :                                                                                    
+            "style" :
             {
                 // "navigationBarTitleText": "我是党员",
                 "enablePullDownRefresh": false
             }
-            
+
         }
+		,{
+		    "path" : "pages/member_edit/member_edit",
+		    "style" :
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+
+		}
         ,{
             "path" : "pages/naviHead（index-head的页面版）/naviHead",
-            "style" :                                                                                    
+            "style" :
             {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
+
         }
         ,{
             "path" : "components/index-head",
-            "style" :                                                                                    
+            "style" :
             {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
+
         }
         ,{
             "path" : "pages/actHead（activity-head的页面版）/actHead",
-            "style" :                                                                                    
+            "style" :
             {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
+
         }
         ,{
             "path" : "pages/activity/activity",
-            "style" :                                                                                    
+            "style" :
             {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
+
         }
-        
+
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

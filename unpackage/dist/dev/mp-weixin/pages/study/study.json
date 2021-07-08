@@ -1,4 +1,11 @@
 {
   "enablePullDownRefresh": false,
-  "usingComponents": {}
+  "usingComponents": {
+    "study-u-waterfall-left": "/pages/study/study-u-waterfall-left",
+    "study-u-waterfall-right": "/pages/study/study-u-waterfall-right",
+    "u-waterfall": "/uview-ui/components/u-waterfall/u-waterfall",
+    "u-lazy-load": "/uview-ui/components/u-lazy-load/u-lazy-load",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-popup": "/uview-ui/components/u-popup/u-popup"
+  }
 }

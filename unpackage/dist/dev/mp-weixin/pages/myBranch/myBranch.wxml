@@ -1,1 +1,1 @@
-<view>我的支部</view>
+<view>我的支部<view><u-button vue-id="7eae7780-1" size="mini" type="error" ripple="true" bind:__l="__l" vue-slots="{{['default']}}"><view>发布组织活动</view></u-button><u-button vue-id="7eae7780-2" size="mini" type="error" ripple="true" bind:__l="__l" vue-slots="{{['default']}}">考勤管理</u-button></view></view>

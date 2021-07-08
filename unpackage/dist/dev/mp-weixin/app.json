@@ -5,9 +5,11 @@
     "pages/study/study",
     "pages/myBranch/myBranch",
     "pages/member/member",
+    "pages/member_edit/member_edit",
     "pages/naviHead（index-head的页面版）/naviHead",
     "components/index-head",
-    "pages/actHead（activity-head的页面版）/actHead"
+    "pages/actHead（activity-head的页面版）/actHead",
+    "pages/activity/activity"
   ],
   "subPackages": [],
   "window": {
@@ -49,6 +51,5 @@
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "usingComponents": {}
 }

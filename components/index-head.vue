@@ -35,7 +35,7 @@
 		props: {
 			name: String,
 			src: String,
-			list: Object
+			list: Array
 		},
 		data() {
 			return {

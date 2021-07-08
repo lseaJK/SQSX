@@ -64,6 +64,36 @@
         {
           "name": "components/index-head",
           "pathName": "components/index-head",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/myBranch/myBranch",
+          "pathName": "pages/myBranch/myBranch",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/study/study",
+          "pathName": "pages/study/study",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/activity/activity",
+          "pathName": "pages/activity/activity",
           "scene": null
         }
       ]
