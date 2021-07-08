@@ -5,7 +5,7 @@
 	
 </template>
 
-<script>
+<script >
 	import indexHead from "@/components/index-head";
 	export default {
 		components:{
@@ -14,7 +14,7 @@
 		data() {
 			return {
 				name:"首页",
-				src:"../../static/banner.png",
+				src:"../static/banner.png",
 				list:["XXXX欢迎您","没有前端不好吗"]
 				
 			}
