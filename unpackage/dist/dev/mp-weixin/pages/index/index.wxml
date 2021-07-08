@@ -1,0 +1,1 @@
+<index-head vue-id="8dd740cc-1" name="{{name}}" src="{{src}}" list="{{list}}" bind:__l="__l"></index-head>

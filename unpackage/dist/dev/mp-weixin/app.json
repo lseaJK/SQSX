@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/study/study",
+    "pages/myBranch/myBranch",
+    "pages/member/member",
+    "pages/naviHead（index-head的页面版）/naviHead",
+    "components/index-head",
+    "pages/actHead（activity-head的页面版）/actHead"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#dbdbdb",
+    "selectedColor": "#d81e06",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "static/img64icon/red64_dangjianhuodong.png",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img64icon/dangjianhuodong.png",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "static/img64icon/red64_xuexizhongxin.png",
+        "pagePath": "pages/study/study",
+        "iconPath": "static/img64icon/xuexizhongxin.png",
+        "text": "学习课件"
+      },
+      {
+        "selectedIconPath": "static/img64icon/64xueshengdangzhibudahui.png",
+        "pagePath": "pages/myBranch/myBranch",
+        "iconPath": "static/img64icon/red64_zongzhiweiyuanhuidangyuandahui.png",
+        "text": "我的支部"
+      },
+      {
+        "selectedIconPath": "static/img64icon/red64_dangyuan.png",
+        "pagePath": "pages/member/member",
+        "iconPath": "static/img64icon/dangyuan.png",
+        "text": "我是党员"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
