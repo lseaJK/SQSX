@@ -9,7 +9,13 @@
     "pages/naviHead（index-head的页面版）/naviHead",
     "components/index-head",
     "pages/actHead（activity-head的页面版）/actHead",
-    "pages/activity/activity"
+    "pages/activity/activity",
+    "pages/add_pyq/add_pyq",
+    "pages/attendance/attendance",
+    "pages/launch_act/launch_act",
+    "pages/gift/gift",
+    "components/score-head",
+    "pages/postCircle/postCircle"
   ],
   "subPackages": [],
   "window": {

@@ -24,6 +24,75 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
+.infowrap.data-v-f48466f4 {
+  padding-left: 35rpx;
+  padding-top: 20rpx;
+}
+.infowrap .infoimg.data-v-f48466f4 {
+  width: 200rpx;
+  height: 200rpx;
+  overflow: hidden;
+}
+.infowrap .infodetail.data-v-f48466f4 {
+  padding-left: 45rpx;
+  display: flexbox;
+}
+.infowrap .infodetail .infoedit.data-v-f48466f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.infowrap .infodetail .infoedit .infoname.data-v-f48466f4 {
+  color: #333333;
+  font-size: 40rpx;
+  line-height: 45rpx;
+  margin-right: 76rpx;
+}
+.infowrap .infodetail .infoedit .scoreinfo.data-v-f48466f4 {
+  margin-left: 20rpx;
+  font-size: 28rpx;
+  line-height: 42rpx;
+}
+.infowrap .infodetail .tagwrap.data-v-f48466f4 {
+  margin-top: 24rpx;
+}
+.infowrap .infodetail .tagwrap .tagitem.data-v-f48466f4 {
+  margin-right: 10rpx;
+  margin-bottom: 10rpx;
+}
+.titlewrap.data-v-f48466f4 {
+  padding-left: 32rpx;
+  height: 200rpx;
+}
+.titlewrap .titleitem.data-v-f48466f4 {
+  height: 88rpx;
+  width: 686rpx;
+  border-bottom: 2rpx solid #EEEEEE;
+}
+.titlewrap .titleitem .titlediscript.data-v-f48466f4 {
+  font-family: PingFangSC-Regular;
+  font-size: 28rpx;
+  color: #999999;
+  letter-spacing: 0.5rpx;
+  text-align: left;
+  line-height: 38rpx;
+}
+.mycirclewrap.data-v-f48466f4 {
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+.mycirclewrap .mycircletitle.data-v-f48466f4 {
+  font-size: 40rpx;
+  line-height: 50rpx;
+  margin-left: 42rpx;
+  color: #333333;
+}
+.mycirclewrap .actCata.data-v-f48466f4 {
+  padding: 0 25rpx;
+}
+.mycirclewrap .actCata .cataContent.data-v-f48466f4 {
+  margin-top: 20rpx;
+}
 .u-demo.data-v-f48466f4 {
   padding-top: 0;
 }
@@ -45,9 +114,17 @@
   margin-left: 12rpx;
 }
 .icon-box.data-v-f48466f4 {
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 120rpx;
-          flex: 0 0 120rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 20px;
+  color: #000000;
+  margin-top: 10rpx;
+  margin-bottom: 30rpx;
+}
+.icon-box .iconItem.data-v-f48466f4 {
+  margin-right: 10rpx;
+}
+.icon-box .textItem.data-v-f48466f4 {
+  margin-right: 14rpx;
 }
 .grid-text.data-v-f48466f4 {
   font-size: 35rpx;

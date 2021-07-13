@@ -24,30 +24,49 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.navheadBG {
-  position: relative;
-  height: 220rpx;
-  width: 750rpx;
-  border-bottom-left-radius: 80rpx;
-  border-bottom-right-radius: 80rpx;
-  background-color: #e23e28;
-  padding-top: 20rpx;
-  color: #fff;
+.infowrap {
+  padding-left: 35rpx;
+  padding-top: 10rpx;
 }
-.navheadBG .title {
-  height: 80rpx;
-  font-size: 35rpx;
-  letter-spacing: 10rpx;
-  text-align: center;
+.infowrap .infoimg {
+  width: 200rpx;
+  height: 200rpx;
+  overflow: hidden;
 }
-.navheadBG .tools {
-  height: 70rpx;
+.infowrap .infodetail {
+  padding-left: 45rpx;
+  display: flexbox;
+}
+.infowrap .infodetail .infoedit {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
 }
-.navheadBG .tools .toolItems {
-  margin: 0 50rpx;
+.infowrap .infodetail .infoedit .infoname {
+  color: #333333;
+  font-size: 40rpx;
+  line-height: 45rpx;
+  margin-right: 76rpx;
+}
+.infowrap .infodetail .infoedit .scoreinfo {
+  margin-left: 20rpx;
+  font-size: 28rpx;
+  line-height: 42rpx;
+}
+.infowrap .infodetail .tagwrap {
+  margin-top: 24rpx;
+}
+.infowrap .infodetail .tagwrap .tagitem {
+  margin-right: 10rpx;
+  margin-bottom: 10rpx;
+}
+.infomation {
+  height: 300rpx;
+}
+.infomation .formitem {
+  padding-left: 35rpx;
+  border: 1rpx solid #DCDFE6;
+  box-sizing: border-box;
 }
 .wrap {
   padding: 30rpx;

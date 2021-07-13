@@ -4,40 +4,7 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": false,
-    "es6": true,
-    "enhance": false,
-    "postcss": true,
-    "preloadBackgroundData": false,
-    "minified": true,
-    "newFeature": false,
-    "coverView": true,
-    "nodeModules": false,
-    "autoAudits": false,
-    "showShadowRootInWxmlPanel": true,
-    "scopeDataCheck": false,
-    "uglifyFileName": false,
-    "checkInvalidKey": true,
-    "checkSiteMap": true,
-    "uploadWithSourceMap": true,
-    "compileHotReLoad": false,
-    "useMultiFrameRuntime": true,
-    "useApiHook": true,
-    "useApiHostProcess": false,
-    "babelSetting": {
-      "ignore": [],
-      "disablePlugins": [],
-      "outputPath": ""
-    },
-    "enableEngineNative": false,
-    "bundle": false,
-    "useIsolateContext": true,
-    "useCompilerModule": true,
-    "userConfirmedUseCompilerModuleSwitch": false,
-    "userConfirmedBundleSwitch": false,
-    "packNpmManually": false,
-    "packNpmRelationList": [],
-    "minifyWXSS": true
+    "urlCheck": false
   },
   "compileType": "miniprogram",
   "libVersion": "",
@@ -56,26 +23,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/member/member",
-          "pathName": "pages/member/member",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "components/index-head",
-          "pathName": "components/index-head",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/myBranch/myBranch",
-          "pathName": "pages/myBranch/myBranch",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/study/study",
-          "pathName": "pages/study/study",
+          "name": "pages/launch_act/launch_act",
+          "pathName": "pages/launch_act/launch_act",
           "query": "",
           "scene": null
         },
@@ -92,8 +41,50 @@
           "scene": null
         },
         {
-          "name": "pages/activity/activity",
-          "pathName": "pages/activity/activity",
+          "name": "pages/study/study",
+          "pathName": "pages/study/study",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/myBranch/myBranch",
+          "pathName": "pages/myBranch/myBranch",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/myBranch/myBranch",
+          "pathName": "pages/myBranch/myBranch",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/member/member",
+          "pathName": "pages/member/member",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/member_edit/member_edit",
+          "pathName": "pages/member_edit/member_edit",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/attendance/attendance",
+          "pathName": "pages/attendance/attendance",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/postCircle/postCircle",
+          "pathName": "pages/postCircle/postCircle",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/gift/gift",
+          "pathName": "pages/gift/gift",
           "scene": null
         }
       ]

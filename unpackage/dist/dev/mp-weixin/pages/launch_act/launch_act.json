@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-form": "/uview-ui/components/u-form/u-form",
+    "u-calendar": "/uview-ui/components/u-calendar/u-calendar",
+    "u-picker": "/uview-ui/components/u-picker/u-picker",
+    "u-radio-group": "/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/uview-ui/components/u-radio/u-radio",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "activity-head": "/components/activity-head"
+  }
+}

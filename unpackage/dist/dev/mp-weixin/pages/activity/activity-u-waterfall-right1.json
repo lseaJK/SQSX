@@ -1,0 +1,18 @@
+{
+  "component": true,
+  "usingComponents": {
+    "activity-u-waterfall-left": "/pages/activity/activity-u-waterfall-left",
+    "activity-u-waterfall-right": "/pages/activity/activity-u-waterfall-right",
+    "activity-u-waterfall-left1": "/pages/activity/activity-u-waterfall-left1",
+    "activity-u-waterfall-right1": "/pages/activity/activity-u-waterfall-right1",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-grid": "/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/uview-ui/components/u-grid-item/u-grid-item",
+    "u-waterfall": "/uview-ui/components/u-waterfall/u-waterfall",
+    "u-lazy-load": "/uview-ui/components/u-lazy-load/u-lazy-load",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "activity-head": "/components/activity-head"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "gift-u-waterfall-left": "/pages/gift/gift-u-waterfall-left",
+    "gift-u-waterfall-right": "/pages/gift/gift-u-waterfall-right",
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-grid": "/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/uview-ui/components/u-grid-item/u-grid-item",
+    "u-waterfall": "/uview-ui/components/u-waterfall/u-waterfall",
+    "u-lazy-load": "/uview-ui/components/u-lazy-load/u-lazy-load",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "score-head": "/components/score-head"
+  }
+}

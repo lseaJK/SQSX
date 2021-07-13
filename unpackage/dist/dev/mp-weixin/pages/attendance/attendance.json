@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-toast": "/uview-ui/components/u-toast/u-toast",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "activity-head": "/components/activity-head"
+  }
+}

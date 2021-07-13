@@ -24,6 +24,60 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
+.videoframe.data-v-7ca426cc {
+  padding-left: 22rpx;
+  padding-right: 22rpx;
+}
+.popframe.data-v-7ca426cc {
+  padding-top: 53rpx;
+  padding-left: 13rpx;
+  padding-right: 13rpx;
+  margin-bottom: 52rpx;
+}
+.popframe .popinfo.data-v-7ca426cc {
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+.popframe .popinfo .poptitle.data-v-7ca426cc {
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  color: #333333;
+  text-align: left;
+}
+.popframe .popinfo .popcontent.data-v-7ca426cc {
+  margin-top: 9rpx;
+  font-family: PingFangSC-Light;
+  font-size: 28rpx;
+  color: #999999;
+  text-align: left;
+}
+.popframe .popinfo .popicon.data-v-7ca426cc {
+  font-family: PingFangSC-Regular;
+  font-size: 20rpx;
+  color: #000000;
+  margin-top: 10rpx;
+  margin-bottom: 30rpx;
+}
+.popframe .popinfo .popicon .iconItem.data-v-7ca426cc {
+  margin-right: 10rpx;
+}
+.popframe .popinfo .popicon .textItem.data-v-7ca426cc {
+  margin-right: 14rpx;
+}
+.popframe .popimg.data-v-7ca426cc {
+  width: 626rpx;
+  margin: 0 auto;
+}
+.iconimg.data-v-7ca426cc {
+  width: 130rpx;
+  height: 130rpx;
+  overflow: hidden;
+}
+.grid-text.data-v-7ca426cc {
+  font-size: 35rpx;
+  margin-top: 4rpx;
+  color: #909399;
+}
 .demo-warter.data-v-7ca426cc {
   border-radius: 8px;
   margin: 5px;
@@ -66,5 +120,9 @@
   -webkit-box-pack: center;
   -webkit-justify-content: center;
           justify-content: center;
+}
+.tagitem.data-v-7ca426cc {
+  margin-right: 10rpx;
+  margin-bottom: 10rpx;
 }
 
